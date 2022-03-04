@@ -1,7 +1,7 @@
 import React from 'react';
 import theme from './square.scss';
 
-const Square = ({ classes }/*: { classes: string | string[] }*/) => {
+const Square = ({ classes }: { key: string, classes: string | string[] }) => {
   let className = theme.square;
   if (typeof classes !== 'string') {
     classes.forEach(classNameItem => {

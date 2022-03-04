@@ -4,6 +4,7 @@
     "outDir": "./built",
     "allowJs": true,
     "target": "es5",
+    "esModuleInterop": true,
     "plugins": [
       {
         "name": "typescript-plugin-css-modules"

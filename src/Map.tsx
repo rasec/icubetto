@@ -3,11 +3,11 @@ import React from 'react';
 import Square from './components/Square/Square';
 
 const map = [
-  ["compass", "desert", ["letter", "g"], "desert", "grass", "grass2"],
-  [["letter", "r"], ["image", "tree"], "sea", "sea", "desert", "desert2"],
-  ["desert2", "desert", "grass2", ["letter", "y"], "desert2", ["image", "boat"]],
+  ["compass", "desert", ["letter", "g"], "desert2", "grass", "grass2"],
+  [["letter", "r"], ["image", "tree"], "sea", "sea", "desert2", "desert"],
+  ["desert", "desert2", "grass2", ["letter", "y"], "desert", ["image", "boat"]],
   ["sea", "grass", ["image", "mountain"], "grass2", "grass", "sea"],
-  [["image", "castle"], "desert", "sea", "desert", ["letter", "p"], "desert2"],
+  [["image", "castle"], "desert2", "sea", "desert2", ["letter", "p"], "desert"],
   ["sea", ["image", "city"], "sea", ["letter", "b"], "sea", "sea"]
 ];
 
