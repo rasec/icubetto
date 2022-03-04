@@ -14,9 +14,11 @@ const map = [
 const Map = () => {
   return (
     <table>
-      {map.map(row => {
-        return row.map(cell => <Square classes={cell} />)
-      })}
+      <tbody>
+        {map.map((row, indexRow) => {
+          return <tr key={`${indexRow}`}>{row.map((cell, indexCell) => <Square key={`${indexRow}-${indexCell}`} classes={cell} />)}</tr>;
+        })}
+      </tbody>
     </table>
   );
 };

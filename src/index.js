@@ -3,4 +3,7 @@ import ReactDOM from 'react-dom';
 
 import Map from './Map';
 
-ReactDOM.render(Map, <body />);
+ReactDOM.render(
+  <Map />,
+  document.getElementById('root')
+);

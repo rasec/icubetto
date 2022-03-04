@@ -2,78 +2,87 @@
   text-align: center;
   width: 50px;
   height: 50px;
-  background-color: yellow;
   border: 1px solid black;
 }
 .compass {
-  
+  background-color: white;
 }
 
 .grass {
-
+  background-color: greenyellow;
 }
 
 .grass2 {
-
+  background-color: green;
 }
 
 .desert {
-
+  background-color: coral;
 }
 
 .desert2 {
-
+  background-color: rgb(216, 142, 115);
 }
 
-.letter {
-  
+.sea {
+  background-color: #0099FF;
 }
+
 
 .image {
-  
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .mountain {
-  
+  background-image: url('../../statics/images/mountain.png');
 }
 
 .castle {
-  
+  background-image: url('../../statics/images/castle.png');
 }
 
 .city {
-  
+  background-image: url('../../statics/images/city.png');
 }
 
 .tree {
-  
+  background-image: url('../../statics/images/tree.png');
 }
 
 .boat {
-  
-}
-
-.r {
-  
-}
-
-.g {
-  
-}
-
-.y {
-  
+  background-image: url('../../statics/images/boat.png');
 }
 
 
-.p {
-  
+.letter:before {
+  padding: 5px 8px;
+  border-radius: 500px;
 }
 
-.b {
-  
+.r:before {
+  content: 'R';
+  background-color: orangered;
 }
 
-.b {
-  
+.g:before {
+  content: 'G';
+  background-color: green;
+}
+
+.y:before {
+  content: 'Y';
+  background-color: yellow; 
+}
+
+
+.p:before {
+  content: 'P';
+  background-color: red;
+}
+
+.b:before {
+  content: 'B';
+  background-color: aquamarine;
 }
